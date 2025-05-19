@@ -1,56 +1,40 @@
-# hotstar-ui-clone-study-
-# Hotstar UI Clone (For Study)  A frontend clone of Disney+ Hotstar for learning purposes.  ✅ Built with: - Vite + React + TypeScript - Tailwind CSS - React Router DOM  📌 This is a personal project for educational use only. No copyright infringement intended.
-# React + TypeScript + Vite
+# Hotstar UI Clone (Study Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **frontend UI clone of Disney+ Hotstar**, built purely for **educational purposes** and frontend practice.
 
-Currently, two official plugins are available:
+> 🔒 No backend, login, or actual streaming functionality included.  
+> 📌 No copyright infringement intended.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚡️ [Vite](https://vitejs.dev/) — Frontend build tool
+- ⚛️ [React](https://reactjs.org/) — UI library
+- 🟦 [TypeScript](https://www.typescriptlang.org/) — Static typing
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework
+- 🌐 [React Router](https://reactrouter.com/) — Routing
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📷 Pages Implemented
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- ✅ Profile Selection Page (`/select-profile`)
+- 🔜 Home Page Layout (`/home`) *(in progress)*
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 🧪 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/puttipongpn/hotstar-ui-clone-study.git
+
+# Go into the folder
+cd hotstar-ui-clone-study
+
+# Install dependencies
+npm install
+
+# Run the dev server
+npm run dev
