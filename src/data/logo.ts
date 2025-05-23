@@ -5,5 +5,5 @@ export interface Logo {
 }
 
 export const logos: Logo[] = [
-    { id: 1, name: 'MainLogo', avatar: '/src/assets/disney-plus-hotstar-logo.webp' },
+    { id: 1, name: 'MainLogo', avatar: '/assets/disney-plus-hotstar-logo.webp' },
 ];
