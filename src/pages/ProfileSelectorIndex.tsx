@@ -1,4 +1,3 @@
-import React from 'react';
 import ProfileSelectorHeader from '../components/ProfileSelectorHeader';
 import ProflleSelector from '../components/ProfileSelector';
 

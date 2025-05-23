@@ -1,4 +1,3 @@
-import React from "react";
 import type { Profile } from '../data/profiles';
 
 interface Props {
