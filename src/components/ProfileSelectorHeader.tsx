@@ -5,7 +5,7 @@ const ProfileSelectorHeader = () => {
     return (
         <div className="flex justify-between items-center w-full  mb-10">
             <div className="flex-1 flex justify-start	">
-                <MainLogo />
+                <MainLogo height={48} width={0} />
             </div>
             <div className="flex-1 flex justify-end">
                 <button className="flex justify-items-end text-sm hover:underline">

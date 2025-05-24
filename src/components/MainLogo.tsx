@@ -1,13 +1,16 @@
-import React from 'react';
 import { logos } from '../data/logo';
 
-const MainLogo: React.FC = () => {
+interface MainLogoProps {
+    width: number;
+    height: number;
+}
+const MainLogo = ({ height }: MainLogoProps) => {
     const mainLogo = logos[0];
     return (
         <img
             src={mainLogo.avatar}
             alt={mainLogo.name}
-            style={{ height: 48 }}
+            style={{ height: height }}
         />
     );
 };
